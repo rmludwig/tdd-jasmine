@@ -2,12 +2,19 @@ PRoject 6 - Feedreader Master TDD
 =================================
 
 Rich L.
+
 06/16/2015
 
 
+# To test my code
 
-Summary of Project
-------------------
+Open the index.html in your favorite modern browser and the jasmine code will run automatically. All tests should pass under normal conditions. If there are network issues you will see different results.
+
+# References and My Thoughts
+
+To complete this project I primarily uses the provided files along with JQuery documentation and the Jasmine documentation. Also I used source forge and w3schools for a few minor tips. I found this project VERY usefull. I can see myself using this kind of testing and TDD in my daily work in my current job. I found the class very informative as well as the project to be very usefull. I look forward to your comments.
+
+
 
 # Project Overview
 
@@ -39,21 +46,21 @@ Instructions
 
 How will I complete this project?
 
-/X/ Take the JavaScript Testing course
+*X* Take the JavaScript Testing course
 
-/X/ 1. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
-/X/ 2. Review the functionality of the application within your browser.
-/X/ 3. Explore the application's HTML (*./index.html*), CSS (*./css/style.css*) and JavaScript (*./js/app.js*) to gain an understanding of how it works.
-/X/ 4. Explore the Jasmine spec file in *./jasmine/spec/feedreader.js*
-/X/ 5. Edit the allFeeds variable in *./js/app.js* to make the provided test fail and see how Jasmine visualizes this failure in your application.
-/X/ 6. Return the allFeeds variable to a passing state.
-/X/ 7. Write a test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
-/X/ 7. Write a test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
-/X/ 8. Write a test that loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty.
-/X/ 9. Write a new test suite named "The menu".
-/X/ 10. Write a test that ensures the menu element is hidden by default. You'll have to analyze the HTML and the CSS to determine how we're performing the hiding/showing of the menu element.
-/X/ 11. Write a test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
-/X/ 12. Write a test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Remember, loadFeed() is asynchronous so this test wil require the use of Jasmine's beforeEach and asynchronous done() function.
-13. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
-14. When complete - all of your tests should pass.
+*X* 1. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
+*X* 2. Review the functionality of the application within your browser.
+*X* 3. Explore the application's HTML (*./index.html*), CSS (*./css/style.css*) and JavaScript (*./js/app.js*) to gain an understanding of how it works.
+*X* 4. Explore the Jasmine spec file in *./jasmine/spec/feedreader.js*
+*X* 5. Edit the allFeeds variable in *./js/app.js* to make the provided test fail and see how Jasmine visualizes this failure in your application.
+*X* 6. Return the allFeeds variable to a passing state.
+*X* 7. Write a test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
+*X* 7. Write a test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
+*X* 8. Write a test that loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty.
+*X* 9. Write a new test suite named "The menu".
+*X* 10. Write a test that ensures the menu element is hidden by default. You'll have to analyze the HTML and the CSS to determine how we're performing the hiding/showing of the menu element.
+*X* 11. Write a test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
+*X* 12. Write a test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Remember, loadFeed() is asynchronous so this test wil require the use of Jasmine's beforeEach and asynchronous done() function.
+*X* 13. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
+*X* 14. When complete - all of your tests should pass.
 

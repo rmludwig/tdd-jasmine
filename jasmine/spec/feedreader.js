@@ -116,13 +116,29 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
+        // Store inner html of feed container in these vars
+        var initialFeedContent = $('.feed').html();
 
+        // run asyncronous functions with callback and capture changing
+        // html content for comparison
+        beforeEach(function(done) {
+            // load feed index 1, this is a change to initial content
+            loadFeed(1, function() {
+                done();
+            });
+        });
+
+        // Compare initial to current after async change completes
+        it('changes feed content', function(done){
+            // capture new content
+            var currentFeedContent = $('.feed').html();
+            // initial and new should not be the same
+            //console.log(initialFeedContent);
+            //console.log('new');
+            //console.log(currentFeedContent);
+            expect(initialFeedContent).not.toEqual(currentFeedContent);
+            done();
+        });
     });
 }());
 
-/*
-
-13. Write a test that ensures when a new feed is loaded by 
-the loadFeed function that the content actually changes. Remember, 
-loadFeed() is asynchronous.
-*/
